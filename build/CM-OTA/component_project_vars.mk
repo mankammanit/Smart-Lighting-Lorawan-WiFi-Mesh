@@ -1,0 +1,7 @@
+# Automatically generated build file. Do not edit.
+COMPONENT_INCLUDES += $(PROJECT_PATH)/components/CM-OTA
+COMPONENT_LDFLAGS += -L$(BUILD_DIR_BASE)/CM-OTA -lCM-OTA
+COMPONENT_LINKER_DEPS += 
+COMPONENT_SUBMODULES += 
+COMPONENT_LIBRARIES += CM-OTA
+component-CM-OTA-build: 

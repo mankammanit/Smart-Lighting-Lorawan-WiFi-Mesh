@@ -1,0 +1,141 @@
+###############################################################################
+menu "Mesh Configuration MASTER"
+
+config ROUTER_SSID
+    string "SSID"
+        default "CM_RD_2F_2G"
+        help
+        Input SSID WIFI.
+
+config ROUTER_PASS
+    string "PASSWORD"
+        default "ilovecivicmedia"
+        help
+        Input PASS WIFI.
+
+config MESH_ID
+    string "Mesh ID"
+        default "123456"
+        help
+            The maximum length is 6 bytes. Mesh network identification,
+            Nodes with the same mesh ID can, communicate with each other.
+
+config MESH_CHANNEL
+    int "Mesh network channel"
+    range 1 14
+    default 13
+    help
+        Mesh network channel.
+
+endmenu
+###############################################################################
+menu "Lora Configuration"
+
+    config murata_PARSER_RING_BUFFER_SIZE
+        int "murata Parser Ring Buffer Size"
+        range 0 2048
+        default 1024
+        help
+            Size of the ring buffer used for UART Rx channel.
+
+    config murata_PARSER_TASK_STACK_SIZE
+        int "murata Parser Task Stack Size"
+        range 0 4096
+        default 2048
+        help
+            Stack size of murata Parser task.
+
+    config murata_PARSER_TASK_PRIORITY
+        int "murata Parser Task Priority"
+        range 0 24
+        default 2
+        help
+            Priority of murata Parser task.
+endmenu
+###############################################################################
+menu "GPS Configuration"
+
+    config NMEA_PARSER_RING_BUFFER_SIZE
+        int "NMEA Parser Ring Buffer Size"
+        range 0 2048
+        default 1024
+        help
+            Size of the ring buffer used for UART Rx channel.
+
+    config NMEA_PARSER_TASK_STACK_SIZE
+        int "NMEA Parser Task Stack Size"
+        range 0 4096
+        default 2048
+        help
+            Stack size of NMEA Parser task.
+
+    config NMEA_PARSER_TASK_PRIORITY
+        int "NMEA Parser Task Priority"
+        range 0 24
+        default 2
+        help
+            Priority of NMEA Parser task.
+
+    menu "NMEA Statement Support"
+        comment "At least one statement must be selected"
+        config NMEA_STATEMENT_GGA
+            bool "GGA Statement"
+            default y
+            help
+                Enabling this option will parse the following parameter from GGA statement:
+
+                - Latitude, Longitude, Altitude;
+                - Number of satellites in use, fix status (no fix, GPS, DGPS), UTC time;
+
+        config NMEA_STATEMENT_GSA
+            bool "GSA Statement"
+            default y
+            help
+                Enabling this option will parse the following parameter from GSA statement:
+
+                - Position/Vertical/Horizontal dilution of precision;
+                - Fix mode (no fix, 2D, 3D fix);
+                - IDs of satellites in use;
+
+        config NMEA_STATEMENT_GSV
+            bool "GSV Statement"
+            default y
+            help
+                Enabling this option will parse the following parameter from GSV statement:
+
+                - Number of satellites in view;
+                - Optional details of each satellite in view;
+
+        config NMEA_STATEMENT_RMC
+            bool "RMC Statement"
+            default y
+            help
+                Enabling this option will parse the following parameter from RMC statement:
+
+                - Validity of GPS signal;
+                - Ground speed (knots) and course over ground (degrees);
+                - Magnetic variation;
+                - UTC date;
+
+        config NMEA_STATEMENT_GLL
+            bool "GLL Statement"
+            default y
+            help
+                Enabling this option will parse the following parameter from GLL statement:
+
+                - Latitude, Longitude;
+                - UTC time;
+
+        config NMEA_STATEMENT_VTG
+            bool "VTG Statement"
+            default y
+            help
+                Enabling this option will parse the following parameter from VTG statement:
+
+                - Ground speed (knots, km/h) and course over ground (degrees);
+                - Magnetic variation;
+
+    endmenu
+
+endmenu
+###############################################################################
