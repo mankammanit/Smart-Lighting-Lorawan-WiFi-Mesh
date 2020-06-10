@@ -1,4 +1,4 @@
 # FW_LoRaWan_MASTER
-Name     : LoRaWAN + WiFIMESH;
-Platform : ESP-IDF / FreeRTOS / C Programming;
-Author   : Kammanit Jitkul;
+<p> Name     : LoRaWAN + WiFIMESH </p>
+<p> Platform : ESP-IDF / FreeRTOS / C Programming </p>
+<p> Author   : Kammanit Jitkul </p>
