@@ -1,3 +1,4 @@
 # FW_LoRaWan_MASTER
-# ESP-IDF
-# CIVIC MEDIA
+# LoRaWAN + WiFIMESH
+# Platform ESP-IDF / FreeRTOS / C Programming
+# Author Kammanit Jitkul
