@@ -213,16 +213,22 @@ void add_queue_lpp_root()
 
 								lpp = CayenneLPP__create(51);
 
+								//node-id --> mac id
 								CayenneLPP__addNodeID(lpp,comp_str_node);
 
+								//parent --> เครือข่าย mac id ที่เกาะ
 								CayenneLPP__addParentID(lpp,comp_str_parent);
 
+								//ค่าสีปัจจุบัน
 								CayenneLPP__addColor(lpp,status_led.mycolor);
 
+								//ค่าแสงปัจจุบัน
 								CayenneLPP__addLightControl(lpp,status_led.mybrightness);
 
+								//ค่าอุณหภูมิตัวโคม
 								CayenneLPP__addTemperature(lpp,si7021_read_temperature());
 
+								//ค่าความชื้นตัวโคม
 								CayenneLPP__addRelativeHumidity(lpp,(int)si7021_read_humidity());
 
 								//ค่าแรงดัน
@@ -244,6 +250,7 @@ void add_queue_lpp_root()
 								//Dim 10 - 100% & Adj CCT 2700-6500 , 2 = Dim 10 - 100% only & not Adj CCT
 								CayenneLPP__addGen(lpp,status_led.GEN);
 
+								//โมเดลโคม
 								switch (status_led.MODEL) {
 								case 45:
 																CayenneLPP__addModel(lpp,1);
