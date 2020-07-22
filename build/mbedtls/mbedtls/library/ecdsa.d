@@ -36,7 +36,13 @@ mbedtls/library/ecdsa.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/asn1.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/string.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/string.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/hmac_drbg.h
+ /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/hmac_drbg.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_time.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/time.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/time.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/time.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
 
@@ -111,4 +117,16 @@ mbedtls/library/ecdsa.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/string.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/hmac_drbg.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_time.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/time.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/time.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/time.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h:
 /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/library/ecdsa.c:

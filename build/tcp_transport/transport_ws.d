@@ -42,12 +42,13 @@ transport_ws.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/tcp_transport/include/esp_transport_ws.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/tcp_transport/include/esp_transport_utils.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/time.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/tcp_transport/transport_strcasestr.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/base64.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha1.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/port/include/esp_mem.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/limits.h
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/limits.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha1.h
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdlib.h:
 
@@ -133,9 +134,9 @@ transport_ws.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/time.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/base64.h:
+/Users/macbook/esp/esp-mdf/esp-idf/components/tcp_transport/transport_strcasestr.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha1.h:
+/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/base64.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
 
@@ -144,4 +145,6 @@ transport_ws.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/limits.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha1.h:
 /Users/macbook/esp/esp-mdf/esp-idf/components/tcp_transport/./transport_ws.c:

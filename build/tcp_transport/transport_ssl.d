@@ -41,6 +41,7 @@ transport_ssl.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/projdefs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/config/specreg.h \
@@ -81,7 +82,7 @@ transport_ssl.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/task.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/limits.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/list.h \
- /Users/macbook/esp/esp-mdf/components/third_party/esp-aliyun/components/esp-tls/esp_tls.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp-tls/esp_tls.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/port/esp32/include/sys/socket.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/opt.h \
@@ -100,6 +101,7 @@ transport_ssl.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/sys/select.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_task.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/include/apps/sntp/sntp.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/debug.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/arch.h \
@@ -137,6 +139,7 @@ transport_ssl.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/rsa.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecdsa.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/cipher.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crt.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/asn1.h \
@@ -243,6 +246,8 @@ transport_ssl.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h:
 
+/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h:
+
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/xtruntime.h:
@@ -323,7 +328,7 @@ transport_ssl.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/list.h:
 
-/Users/macbook/esp/esp-mdf/components/third_party/esp-aliyun/components/esp-tls/esp_tls.h:
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp-tls/esp_tls.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/port/esp32/include/sys/socket.h:
 
@@ -360,6 +365,8 @@ transport_ssl.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_task.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/lwip/include/apps/sntp/sntp.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h:
 
@@ -434,6 +441,8 @@ transport_ssl.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecdsa.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/cipher.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crt.h:
 

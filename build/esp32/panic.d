@@ -45,6 +45,7 @@ panic.o: /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/panic.c \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/projdefs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/config/specreg.h \
@@ -89,17 +90,23 @@ panic.o: /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/panic.c \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/timer_group_struct.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/timer_group_reg.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/rtc.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/include/soc/rtc_wdt.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_gdbstub.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_panic.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_core_dump.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/espcoredump/include/esp_core_dump.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/xtensa_context.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/spi_flash/include/esp_spi_flash.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_cache_err_int.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/app_trace/include/esp_app_trace.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/app_trace/include/esp_app_trace_util.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/esp_system_internal.h
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/esp_system_internal.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/app_update/include/esp_ota_ops.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/spi_flash/include/esp_partition.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/spi_flash/include/esp_spi_flash.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_image_format.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_flash_data_types.h
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdlib.h:
 
@@ -193,6 +200,8 @@ panic.o: /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/panic.c \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h:
 
+/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h:
+
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/xtruntime.h:
@@ -281,8 +290,6 @@ panic.o: /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/panic.c \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/timer_group_reg.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h:
-
 /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/rtc.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/soc/include/soc/rtc_wdt.h:
@@ -291,7 +298,9 @@ panic.o: /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/panic.c \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_panic.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_core_dump.h:
+/Users/macbook/esp/esp-mdf/esp-idf/components/espcoredump/include/esp_core_dump.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/xtensa_context.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/spi_flash/include/esp_spi_flash.h:
 
@@ -302,4 +311,16 @@ panic.o: /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/panic.c \
 /Users/macbook/esp/esp-mdf/esp-idf/components/app_trace/include/esp_app_trace_util.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/esp_system_internal.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/app_update/include/esp_ota_ops.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/spi_flash/include/esp_partition.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/spi_flash/include/esp_spi_flash.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_image_format.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_flash_partitions.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_flash_data_types.h:
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/./panic.c:

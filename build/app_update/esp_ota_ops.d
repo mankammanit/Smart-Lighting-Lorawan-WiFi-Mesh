@@ -46,6 +46,7 @@ esp_ota_ops.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/projdefs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/config/specreg.h \
@@ -98,7 +99,13 @@ esp_ota_ops.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_dport_access.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/uart_reg.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log_internal.h
+ /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log_internal.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/bootloader_common.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/param.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/syslimits.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/endian.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/param.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/efuse/include/esp_efuse.h
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdint.h:
 
@@ -191,6 +198,8 @@ esp_ota_ops.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h:
 
@@ -297,4 +306,16 @@ esp_ota_ops.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log_internal.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/bootloader_common.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/param.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/syslimits.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/endian.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/param.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/efuse/include/esp_efuse.h:
 /Users/macbook/esp/esp-mdf/esp-idf/components/app_update/./esp_ota_ops.c:

@@ -42,11 +42,10 @@ src/secure_boot_signatures.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/efuse_reg.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/soc.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/micro-ecc/micro-ecc/uECC.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha256.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/port/include/esp_mem.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/limits.h
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/param.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/syslimits.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/endian.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/param.h
 
 /Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h:
 
@@ -132,13 +131,11 @@ src/secure_boot_signatures.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/micro-ecc/micro-ecc/uECC.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha256.h:
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/param.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/syslimits.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/port/include/esp_mem.h:
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/endian.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h:
-
-/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/limits.h:
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/param.h:
 /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/src/secure_boot_signatures.c:

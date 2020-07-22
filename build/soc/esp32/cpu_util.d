@@ -1,6 +1,7 @@
 esp32/cpu_util.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/cpu_util.c \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_attr.h \
+ /Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdint.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/_default_types.h \
@@ -16,7 +17,6 @@ esp32/cpu_util.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/soc.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_assert.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/assert.h \
- /Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdlib.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/ieeefp.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/_ansi.h \
@@ -35,6 +35,8 @@ esp32/cpu_util.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/soc.h
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_attr.h:
+
+/Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h:
 
@@ -65,8 +67,6 @@ esp32/cpu_util.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_assert.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/assert.h:
-
-/Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdlib.h:
 

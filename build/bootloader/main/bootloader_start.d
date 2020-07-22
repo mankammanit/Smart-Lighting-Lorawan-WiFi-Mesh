@@ -20,7 +20,9 @@ bootloader_start.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include_bootloader/bootloader_utility.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_image_format.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/bootloader_common.h
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/bootloader_common.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/rtc.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/ets_sys.h
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h:
 
@@ -63,4 +65,8 @@ bootloader_start.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_flash_partitions.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/bootloader_common.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/rtc.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/ets_sys.h:
 /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader/subproject/main/./bootloader_start.c:

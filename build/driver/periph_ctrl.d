@@ -43,6 +43,7 @@ periph_ctrl.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/projdefs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/config/specreg.h \
@@ -170,6 +171,8 @@ periph_ctrl.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h:
 

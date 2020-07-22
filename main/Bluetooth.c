@@ -41,17 +41,22 @@
 
 extern void ota_task();
 
+extern char recvb_form_ble[32];
+extern bool ble_cmd_to_gr;
+
 enum cmd_bluetooth
 {
-        WRITE_LORAWAN_PF = 1,
-        READ_LORAWAN_PF = 2,
-        WRITE_MESH_NETWORK_PF = 3,
-        READ_MESH_NETWORK_PF = 4,
-        TEST_CONTROL_SL = 5,
-        UPDATE_FW_VIA_BLE = 6,
-        RESTART_MCU = 7,
-        WRITE_STREET_LIGHT_PF =8,
-        READ_STREET_LIGHT_PF = 9,
+        WRITE_LORAWAN_PF        = 1,
+        READ_LORAWAN_PF         = 2,
+        WRITE_MESH_NETWORK_PF   = 3,
+        READ_MESH_NETWORK_PF    = 4,
+        TEST_CONTROL_SL         = 5,
+        UPDATE_FW_VIA_BLE       = 6,
+        RESTART_MCU             = 7,
+        WRITE_STREET_LIGHT_PF   = 8,
+        READ_STREET_LIGHT_PF    = 9,
+        TEST_CONTROL_SL_GR      = 10,
+        SCAN_SL                 = 11,
 
 };
 
@@ -200,6 +205,25 @@ static void esp_spp_cb(esp_spp_cb_event_t event, esp_spp_cb_param_t *param)
                                         sprintf(spp_data, "MESH CH:%d\n",status_led.meshch);
                                         esp_spp_write(param->write.handle, strlen(spp_data), (uint8_t *)spp_data);
 
+                                        uint8_t nodes_num = esp_mesh_get_routing_table_size();
+                                        // MDF_LOGI("nodes_num : %d", nodes_num);
+                                        sprintf(spp_data, "nodes_num:%d\n",nodes_num);
+                                        esp_spp_write(param->write.handle, strlen(spp_data), (uint8_t *)spp_data);
+                                        int size_node = 0;
+                                        mesh_addr_t *mac = (mesh_addr_t*)malloc(6*nodes_num);
+                                        esp_mesh_get_routing_table(mac, nodes_num * 6, &size_node);
+                                        for(uint8_t n = 0; n < size_node; n++)
+                                        {
+                                                // MDF_LOGI("Child mac: " MACSTR,  MAC2STR(mac[n].addr));
+                                                sprintf(spp_data, "Child mac: " MACSTR,  MAC2STR(mac[n].addr));
+                                                esp_spp_write(param->write.handle, strlen(spp_data), (uint8_t *)spp_data);
+                                                sprintf(spp_data, "\n");
+                                                esp_spp_write(param->write.handle, strlen(spp_data), (uint8_t *)spp_data);
+                                        }
+
+                                        free(mac);
+
+
                                         break;
 
                                 case TEST_CONTROL_SL:
@@ -220,6 +244,32 @@ static void esp_spp_cb(esp_spp_cb_event_t event, esp_spp_cb_param_t *param)
 
                                         sprintf(spp_data, "Receined characters: %s,[%d]\n",buf,param->data_ind.len);
                                         esp_spp_write(param->write.handle, strlen(spp_data), (uint8_t *)spp_data);
+                                        break;
+
+                                case TEST_CONTROL_SL_GR:
+                                        // {"CMD":10,"BRIGHT":10,"COLOR":3000}
+                                        printf("case TEST_CONTROL_SL_GR\n");
+
+                                        int color__ = cJSON_GetObjectItem(attributes,"COLOR")->valueint;
+                                        int bright__ = cJSON_GetObjectItem(attributes,"BRIGHT")->valueint;
+
+                                        Set_Color(color__);
+                                        Set_Brightness(bright__);
+                                        status_led.mycolor = color__;
+                                        status_led.mybrightness = bright__;
+
+                                        save_led(status_led);
+
+                                        char color_hex[5];
+                                        char dim_hex[5];
+                                        sprintf(color_hex,"%04x",color__);
+                                        sprintf(dim_hex,"%02x",bright__);
+                                        sprintf(recvb_form_ble,"9601020304050687%s6f%s9b02",color_hex,dim_hex);
+                                        ble_cmd_to_gr = true;
+
+                                        sprintf(spp_data, "Receined characters: %s,[%d]\n",buf,param->data_ind.len);
+                                        esp_spp_write(param->write.handle, strlen(spp_data), (uint8_t *)spp_data);
+
                                         break;
 
                                 case UPDATE_FW_VIA_BLE:
@@ -289,6 +339,27 @@ static void esp_spp_cb(esp_spp_cb_event_t event, esp_spp_cb_param_t *param)
                                         esp_spp_write(param->write.handle, strlen(spp_data), (uint8_t *)spp_data);
 
                                         esp_restart();
+
+                                        break;
+
+                                case SCAN_SL:
+                                        // {"CMD":11}
+                                        printf("case SCAN_SL\n");
+
+                                        sprintf(spp_data, "Receined characters: %s,[%d]\n",buf,param->data_ind.len);
+                                        esp_spp_write(param->write.handle, strlen(spp_data), (uint8_t *)spp_data);
+
+                                        sprintf(spp_data, "OK TEST BLINK SL!!!!!!\n");
+                                        esp_spp_write(param->write.handle, strlen(spp_data), (uint8_t *)spp_data);
+
+                                        for(uint8_t i=0; i<5; i++)
+                                        {
+                                                Set_Brightness(10);
+                                                Set_Brightness(100);
+                                        }
+
+                                        //ok return lasted status
+                                        Set_Brightness(status_led.mybrightness);
 
                                         break;
 

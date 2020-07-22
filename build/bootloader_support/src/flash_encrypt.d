@@ -40,7 +40,7 @@ src/flash_encrypt.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_assert.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_secure_boot.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_efuse.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/efuse/include/esp_efuse.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/ets_sys.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/soc.h \
@@ -145,7 +145,7 @@ src/flash_encrypt.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_secure_boot.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_efuse.h:
+/Users/macbook/esp/esp-mdf/esp-idf/components/efuse/include/esp_efuse.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h:
 

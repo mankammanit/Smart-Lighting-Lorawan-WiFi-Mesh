@@ -25,6 +25,7 @@ bluedroid/device/interop.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/stack/include/stack/bt_types.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdint.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/_intsup.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bt/common/include/bt_common.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/ets_sys.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/soc.h \
@@ -39,7 +40,7 @@ bluedroid/device/interop.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/common/include/common/bt_defs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/common/include/common/bt_target.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/stack/include/stack/dyn_mem.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/osi/include/osi/hash_map.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bt/common/osi/include/osi/hash_map.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/device/include/device/interop.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/device/include/device/interop_database.h
 
@@ -93,6 +94,8 @@ bluedroid/device/interop.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/_intsup.h:
 
+/Users/macbook/esp/esp-mdf/esp-idf/components/bt/common/include/bt_common.h:
+
 /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/ets_sys.h:
@@ -121,7 +124,7 @@ bluedroid/device/interop.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/stack/include/stack/dyn_mem.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/osi/include/osi/hash_map.h:
+/Users/macbook/esp/esp-mdf/esp-idf/components/bt/common/osi/include/osi/hash_map.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/device/include/device/interop.h:
 

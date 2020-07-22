@@ -42,6 +42,7 @@ i2s.o: /Users/macbook/esp/esp-mdf/esp-idf/components/driver/i2s.c \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/projdefs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/config/specreg.h \
@@ -105,7 +106,9 @@ i2s.o: /Users/macbook/esp/esp-mdf/esp-idf/components/driver/i2s.c \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/dac_channel.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/driver/adc1_i2s_private.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log_internal.h
+ /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log_internal.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_pm.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp32/pm.h
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/string.h:
 
@@ -192,6 +195,8 @@ i2s.o: /Users/macbook/esp/esp-mdf/esp-idf/components/driver/i2s.c \
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h:
 
@@ -320,4 +325,8 @@ i2s.o: /Users/macbook/esp/esp-mdf/esp-idf/components/driver/i2s.c \
 /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log_internal.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_pm.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp32/pm.h:
 /Users/macbook/esp/esp-mdf/esp-idf/components/driver/./i2s.c:

@@ -61,6 +61,7 @@ pthread.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/projdefs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/config/specreg.h \
@@ -98,6 +99,7 @@ pthread.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/queue.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/pthread/pthread_internal.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/pthread/include/esp_pthread.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log_internal.h
 
@@ -223,6 +225,8 @@ pthread.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h:
 
+/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h:
+
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/xtruntime.h:
@@ -296,6 +300,8 @@ pthread.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/pthread/pthread_internal.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/pthread/include/esp_pthread.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h:
 

@@ -28,11 +28,11 @@ syscalls.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/stdlib.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/alloca.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_attr.h \
+ /Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdint.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/_intsup.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/hal.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -51,6 +51,7 @@ syscalls.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/projdefs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/config/specreg.h \
@@ -141,6 +142,8 @@ syscalls.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_attr.h:
 
+/Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h:
+
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdint.h:
@@ -148,8 +151,6 @@ syscalls.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/_intsup.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
-
-/Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 
@@ -186,6 +187,8 @@ syscalls.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h:
 

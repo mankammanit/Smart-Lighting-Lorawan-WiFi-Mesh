@@ -34,6 +34,9 @@ vfs_uart.o: /Users/macbook/esp/esp-mdf/esp-idf/components/vfs/vfs_uart.c \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/unistd.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/sys/unistd.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/unistd.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/utime.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/sys/utime.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/time.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h \
@@ -58,6 +61,7 @@ vfs_uart.o: /Users/macbook/esp/esp-mdf/esp-idf/components/vfs/vfs_uart.c \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/projdefs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/config/specreg.h \
@@ -94,7 +98,6 @@ vfs_uart.o: /Users/macbook/esp/esp-mdf/esp-idf/components/vfs/vfs_uart.c \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/touch_channel.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/semphr.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/queue.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/time.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/sys/termios.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/sys/poll.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/dirent.h \
@@ -116,7 +119,9 @@ vfs_uart.o: /Users/macbook/esp/esp-mdf/esp-idf/components/vfs/vfs_uart.c \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/queue.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp_ringbuf/include/freertos/ringbuf.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/uart_channel.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/driver/include/driver/uart_select.h
+ /Users/macbook/esp/esp-mdf/esp-idf/components/driver/include/driver/uart_select.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/uart.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/ets_sys.h
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/string.h:
 
@@ -188,6 +193,12 @@ vfs_uart.o: /Users/macbook/esp/esp-mdf/esp-idf/components/vfs/vfs_uart.c \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/unistd.h:
 
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/utime.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/sys/utime.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/time.h:
+
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
@@ -235,6 +246,8 @@ vfs_uart.o: /Users/macbook/esp/esp-mdf/esp-idf/components/vfs/vfs_uart.c \
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h:
 
@@ -308,8 +321,6 @@ vfs_uart.o: /Users/macbook/esp/esp-mdf/esp-idf/components/vfs/vfs_uart.c \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/queue.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/time.h:
-
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/sys/termios.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/sys/poll.h:
@@ -353,4 +364,8 @@ vfs_uart.o: /Users/macbook/esp/esp-mdf/esp-idf/components/vfs/vfs_uart.c \
 /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/uart_channel.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/driver/include/driver/uart_select.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/uart.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/ets_sys.h:
 /Users/macbook/esp/esp-mdf/esp-idf/components/vfs/./vfs_uart.c:

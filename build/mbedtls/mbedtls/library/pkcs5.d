@@ -34,6 +34,7 @@ mbedtls/library/pkcs5.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/md.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/asn1.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/cipher.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/oid.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/pk.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/rsa.h \
@@ -116,6 +117,8 @@ mbedtls/library/pkcs5.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/asn1.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/cipher.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/oid.h:
 

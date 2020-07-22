@@ -50,6 +50,7 @@ flash_ops.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/projdefs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/config/specreg.h \
@@ -105,6 +106,8 @@ flash_ops.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/app_update/include/esp_ota_ops.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/spi_flash/include/esp_partition.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/spi_flash/include/esp_spi_flash.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_image_format.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/spi_flash/cache_utils.h
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdlib.h:
@@ -206,6 +209,8 @@ flash_ops.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h:
 
@@ -316,6 +321,10 @@ flash_ops.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/spi_flash/include/esp_partition.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/spi_flash/include/esp_spi_flash.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_image_format.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_flash_partitions.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/spi_flash/cache_utils.h:
 /Users/macbook/esp/esp-mdf/esp-idf/components/spi_flash/./flash_ops.c:

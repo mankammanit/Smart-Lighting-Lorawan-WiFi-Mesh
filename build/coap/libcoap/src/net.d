@@ -80,6 +80,7 @@ libcoap/src/net.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/ets_sys.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/xtensa_api.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/touch_channel.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/include/apps/sntp/sntp.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/debug.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/arch.h \
@@ -93,6 +94,7 @@ libcoap/src/net.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/projdefs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/config/specreg.h \
@@ -122,7 +124,7 @@ libcoap/src/net.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/errno.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/ctype.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/port/esp32/include/arpa/inet.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/../../../lwip/src/include/lwip/inet.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/include/apps/sntp/../../../lwip/src/include/lwip/inet.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/coap/libcoap/include/coap/debug.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/coap/libcoap/include/coap/pdu.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/coap/libcoap/include/coap/uri.h \
@@ -313,6 +315,8 @@ libcoap/src/net.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/touch_channel.h:
 
+/Users/macbook/esp/esp-mdf/esp-idf/components/lwip/include/apps/sntp/sntp.h:
+
 /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:
@@ -338,6 +342,8 @@ libcoap/src/net.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h:
 
@@ -397,7 +403,7 @@ libcoap/src/net.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/port/esp32/include/arpa/inet.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/../../../lwip/src/include/lwip/inet.h:
+/Users/macbook/esp/esp-mdf/esp-idf/components/lwip/include/apps/sntp/../../../lwip/src/include/lwip/inet.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/coap/libcoap/include/coap/debug.h:
 

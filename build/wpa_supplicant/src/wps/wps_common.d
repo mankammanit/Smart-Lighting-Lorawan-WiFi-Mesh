@@ -56,6 +56,7 @@ src/wps/wps_common.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/wpa_supplicant/include/wps/wps.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/wpa_supplicant/include/wps/wps_defs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_types.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_private/esp_wifi_types_private.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/queue.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_interface.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/wpa_supplicant/include/wps/wps_attr_parse.h \
@@ -173,6 +174,8 @@ src/wps/wps_common.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/wpa_supplicant/include/wps/wps_defs.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_types.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_private/esp_wifi_types_private.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/queue.h:
 

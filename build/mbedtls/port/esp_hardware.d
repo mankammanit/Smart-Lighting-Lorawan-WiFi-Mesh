@@ -61,7 +61,8 @@ port/esp_hardware.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/config/core.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/xtensa-versions.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/config/core-matmap.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/touch_channel.h
+ /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/touch_channel.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/entropy_poll.h
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
 
@@ -186,4 +187,6 @@ port/esp_hardware.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/config/core-matmap.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/touch_channel.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/entropy_poll.h:
 /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/port/esp_hardware.c:

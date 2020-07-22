@@ -4,4 +4,5 @@ COMPONENT_LDFLAGS += -L$(BUILD_DIR_BASE)/mupgrade -lmupgrade
 COMPONENT_LINKER_DEPS += 
 COMPONENT_SUBMODULES += 
 COMPONENT_LIBRARIES += mupgrade
+COMPONENT_LDFRAGMENTS += 
 component-mupgrade-build: 

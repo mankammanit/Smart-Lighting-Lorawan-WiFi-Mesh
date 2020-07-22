@@ -26,7 +26,8 @@ src/esp_image_format.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include_bootloader/bootloader_flash.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/bootloader_random.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include_bootloader/bootloader_sha.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/bootloader_util.h
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/bootloader_util.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/bootloader_common.h
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/rtc.h:
 
@@ -81,4 +82,6 @@ src/esp_image_format.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include_bootloader/bootloader_sha.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/bootloader_util.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/bootloader_common.h:
 /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/src/esp_image_format.c:

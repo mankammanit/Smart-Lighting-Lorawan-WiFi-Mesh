@@ -24,11 +24,11 @@ ulp_macro.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/stdlib.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/alloca.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_attr.h \
+ /Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_err.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdint.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/_intsup.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/assert.h \
- /Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/assert.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/ets_sys.h \
@@ -88,6 +88,8 @@ ulp_macro.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_attr.h:
 
+/Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h:
+
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_err.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdint.h:
@@ -95,8 +97,6 @@ ulp_macro.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/_intsup.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/assert.h:
-
-/Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/assert.h:
 

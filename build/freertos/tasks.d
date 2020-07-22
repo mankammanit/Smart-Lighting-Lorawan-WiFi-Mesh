@@ -48,6 +48,7 @@ tasks.o: /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/tasks.c \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/projdefs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/config/specreg.h \
@@ -89,7 +90,6 @@ tasks.o: /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/tasks.c \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/semphr.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/queue.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/portmux_impl.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/portmux_impl.inc.h
 
@@ -191,6 +191,8 @@ tasks.o: /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/tasks.c \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h:
 
+/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h:
+
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/xtruntime.h:
@@ -272,8 +274,6 @@ tasks.o: /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/tasks.c \
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/queue.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/portmux_impl.h:
-
-/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h:
 

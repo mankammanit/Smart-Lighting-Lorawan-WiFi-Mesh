@@ -60,6 +60,7 @@ port/esp32/freertos/sys_arch.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/projdefs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/config/specreg.h \
@@ -109,6 +110,7 @@ port/esp32/freertos/sys_arch.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/sys/select.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_task.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/include/apps/sntp/sntp.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/def.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/sys.h \
@@ -241,6 +243,8 @@ port/esp32/freertos/sys_arch.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h:
 
+/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h:
+
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/xtruntime.h:
@@ -338,6 +342,8 @@ port/esp32/freertos/sys_arch.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_task.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/lwip/include/apps/sntp/sntp.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h:
 

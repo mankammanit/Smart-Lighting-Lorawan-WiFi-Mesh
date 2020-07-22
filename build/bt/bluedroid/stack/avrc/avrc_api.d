@@ -23,6 +23,7 @@ bluedroid/stack/avrc/avrc_api.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/stack/include/stack/bt_types.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdint.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/_intsup.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bt/common/include/bt_common.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/ets_sys.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/soc.h \
@@ -44,7 +45,7 @@ bluedroid/stack/avrc/avrc_api.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/stack/include/stack/avrc_defs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/stack/avrc/include/avrc_int.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/stack/avct/include/avct_defs.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/osi/include/osi/allocator.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bt/common/osi/include/osi/allocator.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/heap/include/esp_heap_caps.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/heap/include/multi_heap.h
 
@@ -94,6 +95,8 @@ bluedroid/stack/avrc/avrc_api.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/_intsup.h:
 
+/Users/macbook/esp/esp-mdf/esp-idf/components/bt/common/include/bt_common.h:
+
 /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/ets_sys.h:
@@ -136,7 +139,7 @@ bluedroid/stack/avrc/avrc_api.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/stack/avct/include/avct_defs.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/osi/include/osi/allocator.h:
+/Users/macbook/esp/esp-mdf/esp-idf/components/bt/common/osi/include/osi/allocator.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/heap/include/esp_heap_caps.h:
 

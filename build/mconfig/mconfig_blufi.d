@@ -47,6 +47,7 @@ mconfig_blufi.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/api/include/api/esp_bt_defs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/api/include/api/esp_gatt_defs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_types.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_private/esp_wifi_types_private.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/queue.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_interface.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/api/include/api/esp_bt_defs.h \
@@ -54,11 +55,14 @@ mconfig_blufi.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/api/include/api/esp_bt_main.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/api/include/api/esp_bt_device.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_types.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp_event/include/esp_event.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/projdefs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/config/specreg.h \
@@ -90,19 +94,15 @@ mconfig_blufi.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/ets_sys.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/xtensa_api.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/touch_channel.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/queue.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_types.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_crypto_types.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/esp_event/include/esp_event.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/task.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/limits.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/list.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/queue.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/semphr.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/queue.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp_event/include/esp_event_base.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_event_legacy.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/tcpip_adapter/include/tcpip_adapter.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/queue.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/opt.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/port/esp32/include/lwipopts.h \
@@ -118,6 +118,7 @@ mconfig_blufi.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/stat.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/vfs/include/sys/ioctl.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/sys/select.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/include/apps/sntp/sntp.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/debug.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/arch.h \
@@ -133,6 +134,8 @@ mconfig_blufi.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/ip6_addr.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/def.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/include/apps/dhcpserver/dhcpserver.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_private/esp_wifi_private.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_crypto_types.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_os_adapter.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
@@ -189,6 +192,8 @@ mconfig_blufi.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_mesh_internal.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_internal.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/queue.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_crypto_types.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_mesh_internal.h \
  /Users/macbook/esp/esp-mdf/components/mconfig/include/mconfig_chain.h \
  /Users/macbook/esp/esp-mdf/components/mconfig/include/mconfig_security.h
@@ -287,6 +292,8 @@ mconfig_blufi.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_types.h:
 
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_private/esp_wifi_types_private.h:
+
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/queue.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_interface.h:
@@ -301,6 +308,10 @@ mconfig_blufi.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi.h:
 
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_types.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp_event/include/esp_event.h:
+
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
@@ -310,6 +321,8 @@ mconfig_blufi.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h:
 
@@ -373,19 +386,13 @@ mconfig_blufi.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/touch_channel.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/queue.h:
-
-/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_types.h:
-
-/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_crypto_types.h:
-
-/Users/macbook/esp/esp-mdf/esp-idf/components/esp_event/include/esp_event.h:
-
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/task.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/limits.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/list.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/queue.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/semphr.h:
 
@@ -396,8 +403,6 @@ mconfig_blufi.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_event_legacy.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/tcpip_adapter/include/tcpip_adapter.h:
-
-/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/queue.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h:
 
@@ -429,6 +434,8 @@ mconfig_blufi.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/sys/select.h:
 
+/Users/macbook/esp/esp-mdf/esp-idf/components/lwip/include/apps/sntp/sntp.h:
+
 /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:
@@ -458,6 +465,10 @@ mconfig_blufi.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/def.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/include/apps/dhcpserver/dhcpserver.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_private/esp_wifi_private.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_crypto_types.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_os_adapter.h:
 
@@ -570,6 +581,10 @@ mconfig_blufi.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_mesh_internal.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_internal.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/queue.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_crypto_types.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_mesh_internal.h:
 

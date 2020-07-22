@@ -43,6 +43,7 @@ murata_parser.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/projdefs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/config/specreg.h \
@@ -96,10 +97,10 @@ murata_parser.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp_event/include/esp_event_base.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_event_legacy.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_types.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_private/esp_wifi_types_private.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/queue.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_interface.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/tcpip_adapter/include/tcpip_adapter.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/queue.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_types.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/opt.h \
@@ -118,6 +119,7 @@ murata_parser.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/sys/select.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_task.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/include/apps/sntp/sntp.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/debug.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/arch.h \
@@ -239,6 +241,8 @@ murata_parser.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h:
 
+/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h:
+
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/xtruntime.h:
@@ -345,13 +349,13 @@ murata_parser.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_types.h:
 
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_private/esp_wifi_types_private.h:
+
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/queue.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_interface.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/tcpip_adapter/include/tcpip_adapter.h:
-
-/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/queue.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_types.h:
 
@@ -388,6 +392,8 @@ murata_parser.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_task.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/lwip/include/apps/sntp/sntp.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h:
 

@@ -18,6 +18,7 @@ cpu_start.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/cdefs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/string.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_attr.h \
+ /Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_err.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdio.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/types.h \
@@ -25,7 +26,6 @@ cpu_start.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/sched.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/stdio.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/assert.h \
- /Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdlib.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/stdlib.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/alloca.h \
@@ -114,10 +114,10 @@ cpu_start.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp_event/include/esp_event_base.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_event_legacy.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_types.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_private/esp_wifi_types_private.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/queue.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_interface.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/tcpip_adapter/include/tcpip_adapter.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/queue.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_types.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/opt.h \
@@ -136,6 +136,7 @@ cpu_start.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/sys/select.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_task.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/include/apps/sntp/sntp.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/debug.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/arch.h \
@@ -151,11 +152,12 @@ cpu_start.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/ip6_addr.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/def.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/include/apps/dhcpserver/dhcpserver.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_ipc.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log_internal.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/vfs/include/esp_vfs_dev.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/vfs/include/esp_vfs.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/utime.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/sys/utime.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/sys/termios.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/sys/poll.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/dirent.h \
@@ -169,19 +171,26 @@ cpu_start.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_coexist_internal.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_coexist_adapter.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_panic.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_core_dump.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/espcoredump/include/esp_core_dump.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/xtensa_context.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/app_trace/include/esp_app_trace.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/app_trace/include/esp_app_trace_util.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_dbg_stubs.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_efuse.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/efuse/include/esp_efuse.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_spiram.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/esp_clk_internal.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_pm.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp32/pm.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_flash_encrypt.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/pm_impl.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/xtensa-debug-module/include/trax.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/xtensa-debug-module/include/eri.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/xtensa-debug-module/include/xtensa-debug-module.h
+ /Users/macbook/esp/esp-mdf/esp-idf/components/xtensa-debug-module/include/xtensa-debug-module.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/app_update/include/esp_ota_ops.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_image_format.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_flash_data_types.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/bootloader_flash_config.h
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdint.h:
 
@@ -219,6 +228,8 @@ cpu_start.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_attr.h:
 
+/Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h:
+
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_err.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdio.h:
@@ -232,8 +243,6 @@ cpu_start.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/stdio.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/assert.h:
-
-/Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdlib.h:
 
@@ -411,13 +420,13 @@ cpu_start.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_types.h:
 
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_private/esp_wifi_types_private.h:
+
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/queue.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_interface.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/tcpip_adapter/include/tcpip_adapter.h:
-
-/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/queue.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_types.h:
 
@@ -455,6 +464,8 @@ cpu_start.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
+/Users/macbook/esp/esp-mdf/esp-idf/components/lwip/include/apps/sntp/sntp.h:
+
 /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:
@@ -485,8 +496,6 @@ cpu_start.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/include/apps/dhcpserver/dhcpserver.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_ipc.h:
-
 /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log_internal.h:
@@ -494,6 +503,10 @@ cpu_start.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/vfs/include/esp_vfs_dev.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/vfs/include/esp_vfs.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/utime.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/sys/utime.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/sys/termios.h:
 
@@ -521,7 +534,9 @@ cpu_start.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_panic.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_core_dump.h:
+/Users/macbook/esp/esp-mdf/esp-idf/components/espcoredump/include/esp_core_dump.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/xtensa_context.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/app_trace/include/esp_app_trace.h:
 
@@ -529,7 +544,7 @@ cpu_start.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_dbg_stubs.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_efuse.h:
+/Users/macbook/esp/esp-mdf/esp-idf/components/efuse/include/esp_efuse.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_spiram.h:
 
@@ -539,6 +554,8 @@ cpu_start.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp32/pm.h:
 
+/Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_flash_encrypt.h:
+
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/pm_impl.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/xtensa-debug-module/include/trax.h:
@@ -546,4 +563,14 @@ cpu_start.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/xtensa-debug-module/include/eri.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/xtensa-debug-module/include/xtensa-debug-module.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/app_update/include/esp_ota_ops.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_image_format.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_flash_partitions.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_flash_data_types.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/bootloader_flash_config.h:
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/./cpu_start.c:

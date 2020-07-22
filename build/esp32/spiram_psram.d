@@ -77,7 +77,9 @@ spiram_psram.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/spi_struct.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/driver/include/driver/periph_ctrl.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/bootloader_common.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_flash_data_types.h
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_flash_data_types.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_image_format.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_flash_partitions.h
 
 /Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h:
 
@@ -234,4 +236,8 @@ spiram_psram.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/bootloader_common.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_flash_data_types.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_image_format.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_flash_partitions.h:
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/./spiram_psram.c:

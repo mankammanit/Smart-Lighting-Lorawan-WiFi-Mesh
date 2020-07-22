@@ -39,6 +39,9 @@ mdf_err_to_name.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/app_update/include/esp_ota_ops.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/spi_flash/include/esp_partition.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/spi_flash/include/esp_spi_flash.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_image_format.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_flash_data_types.h \
  /Users/macbook/esp/esp-mdf/components/mcommon/include/mdf_common.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/errno.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/errno.h \
@@ -61,6 +64,7 @@ mdf_err_to_name.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/projdefs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/config/specreg.h \
@@ -107,10 +111,10 @@ mdf_err_to_name.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp_event/include/esp_event_base.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_event_legacy.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_types.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_private/esp_wifi_types_private.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/queue.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_interface.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/tcpip_adapter/include/tcpip_adapter.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/queue.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_types.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/opt.h \
@@ -129,6 +133,7 @@ mdf_err_to_name.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/sys/select.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_task.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/include/apps/sntp/sntp.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/debug.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/lwip/src/include/lwip/arch.h \
@@ -166,10 +171,13 @@ mdf_err_to_name.o: \
  /Users/macbook/esp/esp-mdf/components/mwifi/include/mwifi.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_mesh.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_private/esp_wifi_private.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_crypto_types.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_os_adapter.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_mesh_internal.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_internal.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/queue.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_crypto_types.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_mesh_internal.h
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/string.h:
@@ -250,6 +258,12 @@ mdf_err_to_name.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/spi_flash/include/esp_spi_flash.h:
 
+/Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_image_format.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_flash_partitions.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_flash_data_types.h:
+
 /Users/macbook/esp/esp-mdf/components/mcommon/include/mdf_common.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/errno.h:
@@ -293,6 +307,8 @@ mdf_err_to_name.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h:
 
@@ -386,13 +402,13 @@ mdf_err_to_name.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_types.h:
 
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_private/esp_wifi_types_private.h:
+
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/queue.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_interface.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/tcpip_adapter/include/tcpip_adapter.h:
-
-/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/queue.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_types.h:
 
@@ -429,6 +445,8 @@ mdf_err_to_name.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_task.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/lwip/include/apps/sntp/sntp.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h:
 
@@ -504,6 +522,8 @@ mdf_err_to_name.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi.h:
 
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_private/esp_wifi_private.h:
+
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_crypto_types.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_os_adapter.h:
@@ -511,6 +531,10 @@ mdf_err_to_name.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_mesh_internal.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_internal.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/queue.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_wifi_crypto_types.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_mesh_internal.h:
 /Users/macbook/esp/esp-mdf/components/mcommon/./mdf_err_to_name.c:

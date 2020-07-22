@@ -43,6 +43,9 @@ float voltage_sl = 0.0;
 
 uint8_t retry_ = 0;
 
+char recvb_form_ble[32]="";
+bool ble_cmd_to_gr = false;
+
 
 extern void init_bluetooth();
 
@@ -437,6 +440,7 @@ static void root_write_msg(char* value)
 
 
 								MDF_FREE(data);
+								free(mac);
 
 }
 
@@ -548,9 +552,21 @@ static void print_system_info_timercb(void *timer)
 																	esp_mesh_get_layer(), MAC2STR(sta_mac), MAC2STR(parent_bssid.addr),
 																	mesh_assoc.rssi, esp_mesh_get_total_node_num(), esp_get_free_heap_size());
 
-								for (int i = 0; i < wifi_sta_list.num; i++) {
-																MDF_LOGI("Child mac: " MACSTR, MAC2STR(wifi_sta_list.sta[i].mac));
-								}
+								// for (int i = 0; i < wifi_sta_list.num; i++) {
+								// 								MDF_LOGI("Child mac: " MACSTR, MAC2STR(wifi_sta_list.sta[i].mac));
+								// }
+
+								uint8_t nodes_num = esp_mesh_get_routing_table_size();
+								MDF_LOGI("nodes_num : %d", nodes_num);
+								int size_node = 0;
+								mesh_addr_t *mac = (mesh_addr_t*)malloc(6*nodes_num);
+								esp_mesh_get_routing_table(mac, nodes_num * 6, &size_node);
+								for(uint8_t n = 0; n < size_node; n++)
+																MDF_LOGI("Child mac: " MACSTR,  MAC2STR(mac[n].addr));
+
+								if(esp_get_free_heap_size()<8000) esp_restart();
+
+								free(mac);
 
 #ifdef MEMORY_DEBUG
 
@@ -851,6 +867,12 @@ static void streetlight_working(void* arg)
 								} else {
 																counter_sec++;
 								}
+
+								if(ble_cmd_to_gr) {
+									root_write_msg((char *)recvb_form_ble);
+									ble_cmd_to_gr = false;
+								}
+
 								ESP_LOGI("periodic", "counter seconds : %d sec", counter_sec);
 }
 

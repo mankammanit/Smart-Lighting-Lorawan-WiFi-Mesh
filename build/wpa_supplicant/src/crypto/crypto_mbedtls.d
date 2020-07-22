@@ -40,11 +40,11 @@ src/crypto/crypto_mbedtls.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/wpa_supplicant/include/crypto/crypto.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/wpa_supplicant/include/crypto/common.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecp.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/port/include/esp_mem.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/limits.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/entropy.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha512.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ctr_drbg.h \
@@ -163,8 +163,6 @@ src/crypto/crypto_mbedtls.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecp.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h:
-
 /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/port/include/esp_mem.h:
@@ -172,6 +170,8 @@ src/crypto/crypto_mbedtls.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/limits.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/entropy.h:
 

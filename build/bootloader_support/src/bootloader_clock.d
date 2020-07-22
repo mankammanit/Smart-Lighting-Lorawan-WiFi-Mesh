@@ -8,11 +8,11 @@ src/bootloader_clock.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdint.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/_intsup.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_attr.h \
+ /Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/ets_sys.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/soc.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_assert.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/assert.h \
- /Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdlib.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/ieeefp.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/_ansi.h \
@@ -64,6 +64,8 @@ src/bootloader_clock.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_attr.h:
 
+/Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h:
+
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/ets_sys.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/soc.h:
@@ -71,8 +73,6 @@ src/bootloader_clock.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_assert.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/assert.h:
-
-/Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdlib.h:
 

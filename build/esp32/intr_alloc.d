@@ -46,6 +46,7 @@ intr_alloc.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/projdefs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/config/specreg.h \
@@ -82,8 +83,7 @@ intr_alloc.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/limits.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/list.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log_internal.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_ipc.h
+ /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log_internal.h
 
 /Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h:
 
@@ -177,6 +177,8 @@ intr_alloc.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h:
 
+/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h:
+
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/xtruntime.h:
@@ -250,6 +252,4 @@ intr_alloc.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log_internal.h:
-
-/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_ipc.h:
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/./intr_alloc.c:

@@ -22,12 +22,12 @@ hw_random.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/endian.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/param.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_attr.h \
+ /Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_clk.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/wdev_reg.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/soc.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_assert.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/assert.h \
- /Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdlib.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/stdlib.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/alloca.h \
@@ -91,6 +91,8 @@ hw_random.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_attr.h:
 
+/Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h:
+
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_clk.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/wdev_reg.h:
@@ -100,8 +102,6 @@ hw_random.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_assert.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/assert.h:
-
-/Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdlib.h:
 

@@ -66,7 +66,15 @@ clk.o: /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/clk.c \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/core-macros.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/bootloader_clock.h
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/bootloader_clock.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/driver/include/driver/spi_common.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/lldesc.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/queue.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/soc/include/soc/spi_periph.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/spi_pins.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/spi_reg.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/spi_struct.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdint.h:
 
@@ -203,4 +211,20 @@ clk.o: /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/clk.c \
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/core-macros.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/bootloader_clock.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/driver/include/driver/spi_common.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/lldesc.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/queue.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/soc/include/soc/spi_periph.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/spi_pins.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/spi_reg.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/spi_struct.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h:
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/./clk.c:

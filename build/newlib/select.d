@@ -21,6 +21,8 @@ select.o: /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/select.c \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/sys/unistd.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/unistd.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/cdefs.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/utime.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/sys/utime.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/reent.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
@@ -47,6 +49,7 @@ select.o: /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/select.c \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/projdefs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/config/specreg.h \
@@ -138,6 +141,10 @@ select.o: /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/select.c \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/cdefs.h:
 
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/utime.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/sys/utime.h:
+
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/reent.h:
@@ -189,6 +196,8 @@ select.o: /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/select.c \
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h:
 

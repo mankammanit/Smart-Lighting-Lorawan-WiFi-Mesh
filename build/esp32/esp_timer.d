@@ -23,6 +23,7 @@ esp_timer.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdint.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/_intsup.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_attr.h \
+ /Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_err.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdio.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/types.h \
@@ -30,7 +31,6 @@ esp_timer.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/sched.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/stdio.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/assert.h \
- /Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdlib.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/stdlib.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/alloca.h \
@@ -58,6 +58,7 @@ esp_timer.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/projdefs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/config/specreg.h \
@@ -140,6 +141,8 @@ esp_timer.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_attr.h:
 
+/Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h:
+
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_err.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdio.h:
@@ -153,8 +156,6 @@ esp_timer.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/stdio.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/assert.h:
-
-/Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdlib.h:
 
@@ -209,6 +210,8 @@ esp_timer.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h:
 

@@ -22,6 +22,16 @@ mbedtls/library/platform_util.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/limits.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_time.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/time.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/time.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/time.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/types.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/types.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/sched.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdio.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/stdio.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/threading.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/string.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/string.h
@@ -69,6 +79,26 @@ mbedtls/library/platform_util.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/limits.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_time.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/time.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/time.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/time.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/types.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/types.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/sched.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdio.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/stdio.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/threading.h:
 

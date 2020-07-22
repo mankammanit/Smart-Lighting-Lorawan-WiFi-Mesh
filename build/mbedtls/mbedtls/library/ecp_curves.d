@@ -30,6 +30,7 @@ mbedtls/library/ecp_curves.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/types.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/sched.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/stdio.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/string.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/string.h
 
@@ -92,6 +93,8 @@ mbedtls/library/ecp_curves.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/sched.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/stdio.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/string.h:
 

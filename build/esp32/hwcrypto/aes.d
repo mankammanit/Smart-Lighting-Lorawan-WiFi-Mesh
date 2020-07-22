@@ -30,6 +30,7 @@ hwcrypto/aes.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/hwcrypto/aes.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_types.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/aes.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/dport_reg.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/soc.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_assert.h \
@@ -60,6 +61,7 @@ hwcrypto/aes.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/projdefs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_crosscore_int.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_timer.h \
@@ -91,7 +93,6 @@ hwcrypto/aes.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/ets_sys.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/xtensa_api.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/touch_channel.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/driver/include/driver/periph_ctrl.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/periph_defs.h
 
@@ -155,6 +156,8 @@ hwcrypto/aes.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/aes.h:
 
+/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h:
+
 /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/dport_reg.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/soc.h:
@@ -214,6 +217,8 @@ hwcrypto/aes.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h:
 
@@ -276,8 +281,6 @@ hwcrypto/aes.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/xtensa_api.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/touch_channel.h:
-
-/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/driver/include/driver/periph_ctrl.h:
 

@@ -1,8 +1,8 @@
 src/bootloader_utility.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/src/bootloader_utility.c \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_attr.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h \
  /Users/macbook/esp/LoraWAN-MASTER/build/bootloader/../include/sdkconfig.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/ets_sys.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/soc.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_assert.h \
@@ -57,13 +57,14 @@ src/bootloader_utility.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include_bootloader/bootloader_config.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/bootloader_common.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include_bootloader/bootloader_utility.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include_bootloader/bootloader_sha.h
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include_bootloader/bootloader_sha.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/efuse/include/esp_efuse.h
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_attr.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h:
-
 /Users/macbook/esp/LoraWAN-MASTER/build/bootloader/../include/sdkconfig.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/ets_sys.h:
 
@@ -174,4 +175,6 @@ src/bootloader_utility.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include_bootloader/bootloader_utility.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include_bootloader/bootloader_sha.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/efuse/include/esp_efuse.h:
 /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/src/bootloader_utility.c:

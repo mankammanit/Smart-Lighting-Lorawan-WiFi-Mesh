@@ -8,8 +8,8 @@ esp32/rtc_init.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/dport_reg.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/dport_access.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_attr.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_dport_access.h \
  /Users/macbook/esp/LoraWAN-MASTER/build/bootloader/../include/sdkconfig.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_dport_access.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/uart_reg.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -40,9 +40,9 @@ esp32/rtc_init.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_attr.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_dport_access.h:
-
 /Users/macbook/esp/LoraWAN-MASTER/build/bootloader/../include/sdkconfig.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_dport_access.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/uart_reg.h:
 

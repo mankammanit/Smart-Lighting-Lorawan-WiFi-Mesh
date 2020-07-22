@@ -30,10 +30,6 @@ mbedtls/library/aes.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/hwcrypto/aes.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_types.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/aes.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/padlock.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aesni.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_time.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/time.h \
@@ -43,7 +39,11 @@ mbedtls/library/aes.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/types.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/sched.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdio.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/stdio.h
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/stdio.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/padlock.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aesni.h
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
 
@@ -105,14 +105,6 @@ mbedtls/library/aes.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/aes.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h:
-
-/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/padlock.h:
-
-/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h:
-
-/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aesni.h:
-
 /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_time.h:
@@ -132,4 +124,12 @@ mbedtls/library/aes.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdio.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/stdio.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/padlock.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aesni.h:
 /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/library/aes.c:

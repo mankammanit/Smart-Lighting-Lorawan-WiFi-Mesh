@@ -1,16 +1,20 @@
 esp_timer_esp32.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/esp_timer_esp32.c \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/param.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/config.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/ieeefp.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/features.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/config/core-isa.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/syslimits.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/endian.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/param.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_err.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdint.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/_default_types.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/features.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/_intsup.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdio.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/_ansi.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/newlib.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/config.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/ieeefp.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/config/core-isa.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/cdefs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/reent.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/_ansi.h \
@@ -74,6 +78,7 @@ esp_timer_esp32.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/projdefs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/config/specreg.h \
@@ -90,13 +95,27 @@ esp_timer_esp32.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/semphr.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/queue.h
 
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/param.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/config.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/ieeefp.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/features.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/config/core-isa.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/syslimits.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/endian.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/param.h:
+
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_err.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdint.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/_default_types.h:
-
-/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/features.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/_intsup.h:
 
@@ -105,12 +124,6 @@ esp_timer_esp32.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/_ansi.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/newlib.h:
-
-/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/config.h:
-
-/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/ieeefp.h:
-
-/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/config/core-isa.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/cdefs.h:
 
@@ -237,6 +250,8 @@ esp_timer_esp32.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h:
 

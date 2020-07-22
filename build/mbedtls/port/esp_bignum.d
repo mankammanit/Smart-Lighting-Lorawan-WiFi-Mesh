@@ -33,14 +33,9 @@ port/esp_bignum.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/syslimits.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/endian.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/param.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/port/include/mbedtls/bignum.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/port/include/esp_mem.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/bigint.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdint.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/_intsup.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/bigint.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/hwcrypto_reg.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/soc.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_assert.h \
@@ -77,6 +72,11 @@ port/esp_bignum.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/ets_sys.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log_internal.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/port/include/mbedtls/bignum.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/port/include/esp_mem.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/dport_reg.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/dport_access.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_dport_access.h \
@@ -90,6 +90,7 @@ port/esp_bignum.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/projdefs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_crosscore_int.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_timer.h \
@@ -171,21 +172,11 @@ port/esp_bignum.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/param.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/port/include/mbedtls/bignum.h:
-
-/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h:
-
-/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
-
-/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/port/include/esp_mem.h:
-
-/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h:
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/bigint.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdint.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/_intsup.h:
-
-/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/bigint.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/hwcrypto_reg.h:
 
@@ -259,6 +250,16 @@ port/esp_bignum.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log_internal.h:
 
+/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/port/include/mbedtls/bignum.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/port/include/esp_mem.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h:
+
 /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/dport_reg.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/dport_access.h:
@@ -284,6 +285,8 @@ port/esp_bignum.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h:
 

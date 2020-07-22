@@ -15,7 +15,8 @@ reent_init.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/lock.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/cdefs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/string.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_attr.h
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_attr.h \
+ /Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/string.h:
 
@@ -48,4 +49,6 @@ reent_init.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/string.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_attr.h:
+
+/Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h:
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/./reent_init.c:

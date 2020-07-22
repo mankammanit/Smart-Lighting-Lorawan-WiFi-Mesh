@@ -16,8 +16,7 @@ src/secure_boot_signatures.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/esp_secure_boot.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/efuse_reg.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/soc.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/micro-ecc/micro-ecc/uECC.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/sha.h
+ /Users/macbook/esp/esp-mdf/esp-idf/components/micro-ecc/micro-ecc/uECC.h
 
 /Users/macbook/esp/LoraWAN-MASTER/build/bootloader/../include/sdkconfig.h:
 
@@ -52,6 +51,4 @@ src/secure_boot_signatures.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/soc.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/micro-ecc/micro-ecc/uECC.h:
-
-/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/sha.h:
 /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/src/secure_boot_signatures.c:

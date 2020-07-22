@@ -22,7 +22,15 @@ bluedroid/stack/l2cap/l2c_main.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/stdint.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/_intsup.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/common/include/common/bt_target.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bt/common/include/bt_common.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h \
  /Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/ets_sys.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_assert.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/assert.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/assert.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log_internal.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/stack/include/stack/bt_types.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/stack/include/stack/dyn_mem.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/common/include/common/bt_trace.h \
@@ -31,24 +39,17 @@ bluedroid/stack/l2cap/l2c_main.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/machine/types.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/sched.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/stdio.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/ets_sys.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/soc.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_assert.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/assert.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/assert.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log_internal.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/device/include/device/bdaddr.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/common/include/common/bt_defs.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/osi/include/osi/hash_map.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bt/common/osi/include/osi/hash_map.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/device/include/device/device_features.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/hci/include/hci/hci_layer.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/osi/include/osi/allocator.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bt/common/osi/include/osi/allocator.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/heap/include/esp_heap_caps.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/heap/include/multi_heap.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/osi/include/osi/osi.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/osi/include/osi/future.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/osi/include/osi/semaphore.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bt/common/osi/include/osi/osi.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bt/common/osi/include/osi/future.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bt/common/osi/include/osi/semaphore.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/xtensa_config.h \
@@ -64,6 +65,7 @@ bluedroid/stack/l2cap/l2c_main.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/projdefs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/xtensa/config/specreg.h \
@@ -112,11 +114,11 @@ bluedroid/stack/l2cap/l2c_main.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/stack/include/stack/sdpdefs.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/stack/include/stack/smp_api.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/stack/btm/include/btm_ble_int.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/osi/include/osi/fixed_queue.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/osi/include/osi/list.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bt/common/osi/include/osi/fixed_queue.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bt/common/osi/include/osi/list.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/stack/include/stack/btm_ble_api.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/common/include/common/bt_common_types.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/osi/include/osi/thread.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bt/common/osi/include/osi/thread.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_task.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/stack/btm/include/btm_int.h \
@@ -170,7 +172,23 @@ bluedroid/stack/l2cap/l2c_main.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/common/include/common/bt_target.h:
 
+/Users/macbook/esp/esp-mdf/esp-idf/components/bt/common/include/bt_common.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h:
+
 /Users/macbook/esp/LoraWAN-MASTER/build/include/sdkconfig.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/ets_sys.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/soc.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_assert.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/assert.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/assert.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log_internal.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/stack/include/stack/bt_types.h:
 
@@ -188,41 +206,27 @@ bluedroid/stack/l2cap/l2c_main.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/sys/stdio.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h:
-
-/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/ets_sys.h:
-
-/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/soc.h:
-
-/Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_assert.h:
-
-/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/platform_include/assert.h:
-
-/Users/macbook/esp/esp-mdf/esp-idf/components/newlib/include/assert.h:
-
-/Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log_internal.h:
-
 /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/device/include/device/bdaddr.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/common/include/common/bt_defs.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/osi/include/osi/hash_map.h:
+/Users/macbook/esp/esp-mdf/esp-idf/components/bt/common/osi/include/osi/hash_map.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/device/include/device/device_features.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/hci/include/hci/hci_layer.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/osi/include/osi/allocator.h:
+/Users/macbook/esp/esp-mdf/esp-idf/components/bt/common/osi/include/osi/allocator.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/heap/include/esp_heap_caps.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/heap/include/multi_heap.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/osi/include/osi/osi.h:
+/Users/macbook/esp/esp-mdf/esp-idf/components/bt/common/osi/include/osi/osi.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/osi/include/osi/future.h:
+/Users/macbook/esp/esp-mdf/esp-idf/components/bt/common/osi/include/osi/future.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/osi/include/osi/semaphore.h:
+/Users/macbook/esp/esp-mdf/esp-idf/components/bt/common/osi/include/osi/semaphore.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
@@ -253,6 +257,8 @@ bluedroid/stack/l2cap/l2c_main.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portable.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/deprecated_definitions.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/cpu.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/portmacro.h:
 
@@ -350,15 +356,15 @@ bluedroid/stack/l2cap/l2c_main.o: \
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/stack/btm/include/btm_ble_int.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/osi/include/osi/fixed_queue.h:
+/Users/macbook/esp/esp-mdf/esp-idf/components/bt/common/osi/include/osi/fixed_queue.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/osi/include/osi/list.h:
+/Users/macbook/esp/esp-mdf/esp-idf/components/bt/common/osi/include/osi/list.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/stack/include/stack/btm_ble_api.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/common/include/common/bt_common_types.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/bt/bluedroid/osi/include/osi/thread.h:
+/Users/macbook/esp/esp-mdf/esp-idf/components/bt/common/osi/include/osi/thread.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 

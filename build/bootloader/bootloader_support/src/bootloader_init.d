@@ -1,8 +1,8 @@
 src/bootloader_init.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/src/bootloader_init.c \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_attr.h \
- /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h \
  /Users/macbook/esp/LoraWAN-MASTER/build/bootloader/../include/sdkconfig.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/ets_sys.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/soc/esp32/include/soc/soc.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_assert.h \
@@ -60,13 +60,14 @@ src/bootloader_init.o: \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include_bootloader/bootloader_config.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/bootloader_clock.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/bootloader_common.h \
+ /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/bootloader_flash_config.h \
  /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include_bootloader/flash_qio_mode.h
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/esp_attr.h:
 
-/Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h:
-
 /Users/macbook/esp/LoraWAN-MASTER/build/bootloader/../include/sdkconfig.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/log/include/esp_log.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/esp32/include/rom/ets_sys.h:
 
@@ -181,6 +182,8 @@ src/bootloader_init.o: \
 /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/bootloader_clock.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/bootloader_common.h:
+
+/Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include/bootloader_flash_config.h:
 
 /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/include_bootloader/flash_qio_mode.h:
 /Users/macbook/esp/esp-mdf/esp-idf/components/bootloader_support/src/bootloader_init.c:
